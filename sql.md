@@ -53,7 +53,7 @@ ORDER BY imdb_rating DESC
 LIMIT 3;
 ```
 
-### Aggregate Functions
+## Aggregate Functions
 _Aggregate functions_ compute a single result from a set of input values. For instance, when we need the sum or average of a particular column, we can use aggregate functions to quickly compute it for us.
 
 ```
