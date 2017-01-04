@@ -1,3 +1,5 @@
+![sql](https://www.concurrency.com/getmedia/e0f69a92-832a-4680-b8ae-a1e02407d80a/SQL-Database-(generic).png.aspx?width=256&height=256&ext=.png)
+
 ## Queries and manipulation
 
 **CREATE TABLE** creates new table
