@@ -24,3 +24,14 @@ The **_** means you can substitute any individual character here without breakin
 
 
 **%** is a wildcard character that matches zero or more missing letters in the pattern.
+
+The **BETWEEN** operator is used to filter the result set within a certain range. 
+
+```
+  SELECT * FROM movies
+  WHERE name BETWEEN 'A' AND 'J';
+```
+
+```
+  SELECT * FROM movies WHERE year BETWEEN 1990 AND 2000;
+```
