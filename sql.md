@@ -35,3 +35,18 @@ The **BETWEEN** operator is used to filter the result set within a certain range
 ```
   SELECT * FROM movies WHERE year BETWEEN 1990 AND 2000;
 ```
+
+**OR** is an operator that filters the result set to only include rows where either condition is true. 
+
+**ORDER BY** is a clause that indicates you want to sort the result set by a particular column either alphabetically or numerically.
+
+**ASC** low to high
+**DESC** high to low
+
+**LIMIT** is a clause that lets you specify the maximum number of rows the result set will have. Here, we specify that the result set can not have more than three rows.
+
+```
+SELECT * FROM movies
+ORDER BY imdb_rating DESC
+LIMIT 3;
+```
